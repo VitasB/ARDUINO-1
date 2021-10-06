@@ -24,3 +24,4 @@ Hemos incuido un boton el cual si le damos se enciende
 
 Hemos puesto uan resistencia la cual hace que no se recaliente
 
+Hemos puesto 3 cables pequeños para que de conexion de un lado al otro y hemosp uesto dos botones y una resistencia, esto hace que al darle a un boton solo llegue a una conexion, por eso, hay que darle a los dos botones para encender la bombilla
