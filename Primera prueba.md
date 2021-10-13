@@ -65,4 +65,3 @@ Voltaje = Intensidad x resistencia o resistencia = voltaje/intensidad
 Tenemos dos circuitos
 
 El voltaje de los circuitos es 5V 
-
