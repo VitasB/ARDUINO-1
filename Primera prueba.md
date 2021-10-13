@@ -1,6 +1,18 @@
-## ARDUINO
+# CIRCUITOS ELÉCTRICOS
+
+## Error de programación
+
 
 Hemos probado arduino y nos ha dado error al no estar configurado.
+
+Lo que pasó fue que no habia permismos para escribir en el USB, entonces el programa avr dude lanzó una excepción y detuvo el programa, esto ocurrio por un tema de permisos de usuario.ç
+
+
+## Primeros circuitos
+
+Esto pere a funcionar y dar luz genera dos problemas, el primero se calienta y es incomodo de tocar, y el segundo peude fundir el LED
+
+
 
 COMPILAR: Traducir a codigo maquina 
 
@@ -25,3 +37,12 @@ Hemos incuido un boton el cual si le damos se enciende
 Hemos puesto uan resistencia la cual hace que no se recaliente
 
 Hemos puesto 3 cables pequeños para que de conexion de un lado al otro y hemosp uesto dos botones y una resistencia, esto hace que al darle a un boton solo llegue a una conexion, por eso, hay que darle a los dos botones para encender la bombilla
+
+
+#### Curcuitos en serie
+
+Si desconectamos una parte todo se apaga
+
+#### Circuito paralelo
+
+Da igual si una parte se desconecta
