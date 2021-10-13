@@ -26,7 +26,11 @@ CERRAR PUERTO
 
 Can't open mission denied: no deja abrirlo por el sistema operativo, no lo reconoze
 
+![137101466-bf078db3-99d2-42b9-88e4-a33099f72677](https://user-images.githubusercontent.com/90753262/137126832-99ebc048-cc00-4c11-998e-7ebd9f603dd3.png)
+
+
 ## Revisar componentes electricos
+
 
 Se ha conectado el cable de 5v con el cmd y al dar corriente se ha encendido la luz.
 
@@ -77,4 +81,6 @@ setup ()} (se ejecuta una sola vez)(preparacion)
  
  
  
+ ## Morse
  
+![137111649-c3de9333-392e-4f89-9fec-2daa99c80a1c](https://user-images.githubusercontent.com/90753262/137126812-710a702f-41cf-4237-ad70-a34b400b4601.png)
