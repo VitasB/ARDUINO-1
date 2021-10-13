@@ -46,3 +46,23 @@ Si desconectamos una parte todo se apaga
 #### Circuito paralelo
 
 Da igual si una parte se desconecta
+
+
+## Apuntes sobre electricidad
+
+Voltaje ---> altura (diferencia de potencial).
+
+La intensidad o amperaje es la cantidad de agua o retuladores.
+
+La resitencia es la resistencia al paso del agua o retuladores.
+
+La intensidad = Voltaje/Resistencia = Ley de Ohmo
+
+Voltaje = Intensidad x resistencia o resistencia = voltaje/intensidad
+
+#### Por qu necesitamos resistencias con los LEDs
+
+Tenemos dos circuitos
+
+El voltaje de los circuitos es 5V 
+
