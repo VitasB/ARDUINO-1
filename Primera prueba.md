@@ -65,3 +65,16 @@ Voltaje = Intensidad x resistencia o resistencia = voltaje/intensidad
 Tenemos dos circuitos
 
 El voltaje de los circuitos es 5V 
+
+
+### Lenguaje de 
+
+Dos funciones
+
+setup ()} (se ejecuta una sola vez)(preparacion)
+
+(oop)()}  (se ejecuta despues y se repide indefenidamente)(bucle)
+ 
+ 
+ 
+ 
