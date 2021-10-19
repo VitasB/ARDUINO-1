@@ -126,6 +126,10 @@ void loog (){
 
 cuatro sentencias ( o lineas)
 
+Sentencia: digitalWhite (LES_BULTIN, HIGH)
 
+delay (1000);
+
+digitalWhite (LED_BULTING, LOW);
 
 
