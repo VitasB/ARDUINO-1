@@ -118,6 +118,13 @@ CONSEGUIR PROGRAMA BLINK.INO
 
 
 
+MORDE 1: Hicimos modificaciones en el codigo  dejay cambar el ttrengo de brillo. Para eso hicimos cambios en las lineas delay( ___ );
+
+# QUE HACE BLINK.INO
+
+void loog (){
+
+cuatro sentencias ( o lineas)
 
 
 
