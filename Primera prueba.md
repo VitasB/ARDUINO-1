@@ -101,6 +101,7 @@ Este es el nombre de Joan
 
 - Cargamos el programa BLINK.INO
 
-- Archivos - Ejemplos- 1.Basic- Blink
+- Archivos -> Ejemplos-> 1.Basic-> Blink
+- 
 
 
