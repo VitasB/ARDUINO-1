@@ -143,4 +143,3 @@ delay (1000);
 - Hicimos un pulso largo y un pulso corto
 
 
-
