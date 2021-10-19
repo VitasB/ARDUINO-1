@@ -89,3 +89,18 @@ setup ()} (se ejecuta una sola vez)(preparacion)
 
 Este es el nombre de Joan
 
+
+
+# COMO PROGRAMAr ARDUINO
+
+- Primero tenemos arduino IDE  instalado
+
+- Tenemos un usuario con permisos
+
+- Conectamos el arduino por USB
+
+- Cargamos el programa BLINK.INO
+
+- Archivos - Ejemplos- 1.Basic- Blink
+
+
