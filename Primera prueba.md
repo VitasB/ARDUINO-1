@@ -132,4 +132,15 @@ delay (1000);
 
 digitalWhite (LED_BULTING, LOW);
 
+delay (1000);
+
+1000: 1 segundo
+
+60000: 1 minuto
+
+500: medio segundo
+
+- Hicimos un pulso largo y un pulso corto
+
+
 
