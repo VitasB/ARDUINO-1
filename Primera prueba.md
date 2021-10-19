@@ -102,6 +102,11 @@ Este es el nombre de Joan
 - Cargamos el programa BLINK.INO
 
 - Archivos -> Ejemplos-> 1.Basic-> Blink
-- 
+
+- Pulsamos boton SUBIR
+
+- ERRORES POSIBLES: NO HAY PUERTO , PRET BUSY: SEPERANDO 1M APROX SIN DESENCHUFAR ARDUINO, 
+
+
 
 
