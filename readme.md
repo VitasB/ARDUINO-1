@@ -20,3 +20,4 @@ Estos son mis enlaces:
 -EXCEPCION: Errores que estan controlados desde el mismo codigo de rommetimes.
 
 -LAG: Es un retraso en als comunicaciones.
+ 
