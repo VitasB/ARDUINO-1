@@ -47,6 +47,3 @@ Vamos a añadir un botón conectado al pin 3, de tal forma que solo cuando se pu
 
 
 
-
-
-
