@@ -15,8 +15,8 @@ Estos son mis enlaces:
 
 - GLITCH: Es un tipo de bug gráfico
 
- -ERROR : Es una operacion no permitida por el lenjuage de operacion en el que estemos trabajando, normalmente ocurre en ejecucion.
+-ERROR : Es una operacion no permitida por el lenjuage de operacion en el que estemos trabajando, normalmente ocurre en ejecucion.
  
- -EXCEPCION: Errores que estan controlados desde el mismo codigo de rommetimes.
- 
- -LAG: Es un retraso en als comunicaciones.
+-EXCEPCION: Errores que estan controlados desde el mismo codigo de rommetimes.
+
+-LAG: Es un retraso en als comunicaciones.
