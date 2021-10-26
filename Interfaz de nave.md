@@ -28,6 +28,12 @@ La uncion setup () se ejecuta una vez, cuando el arduino esta cargado por primer
 
 loop () se ejecuta continuamente tras completarse setup (), loop () es donde vas a comprovar si hay voltaje en las entradas, y donde conectaras y desconectaras las salidas.
 
+Para comprovar el nivel de voltaje se utiliza digitalRead ().
+
+DigitalWrite lo que hara es que permita enviar 5V a una clavija de salida.
+
+
+
 
 -Enlace al código utilizado
 
