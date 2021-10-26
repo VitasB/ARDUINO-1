@@ -7,6 +7,7 @@ Estos son mis enlaces:
 
 [1rTrimestre](https://github.com/Ainhoa0512/1erTrimestre)
 
+[Plantilla](https://github.com/Ainhoa0512/ARDUINO/blob/main/PLANTILLA.md)
  
  # Errores y excepciones
  
