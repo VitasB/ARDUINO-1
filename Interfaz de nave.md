@@ -43,7 +43,7 @@ DigitalWrite lo que hara es que permita enviar 5V a una clavija de salida.
 
 ## Variaciones
 
-# Añadir un botón por hawdre
+# Añadir un botón por hawdred
 
 Vamos a añadir un botón conectado al pin 3, de tal forma que solo cuando se pulse el Led3 se encendera, el resto del proyecto (hawdrer y softfware) es el mismo.
 
