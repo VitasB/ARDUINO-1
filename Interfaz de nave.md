@@ -3,21 +3,31 @@
 
 ## Resumen
 
+El LED verde permanecera encendido hasta que pulses el boton. Cuando el Arduino reciba una señal del botón, la luz verde se apagar y las otras 2 luces empezaran a parpadear.
 
 ## Introduccion teoria
+
+Se conectan las Leds al protoboard, led verde a la clavija 3, leds rojas clavijas 4 y 5.
+
+Colocas el botón a un lado de la corriente y el otro a la clavija digita 2 del Arduino. Tendremos que añadir una resistencia azul de 10k-ohm . Esta resistencia conecta la clavija a la toma de tierra cuando el interruptor está abierto, asi que lee LOW.
 
 
 # Proceso de montaje
 
--Materiales necesarios
+-Materiales necesarios: Leds, resistencias azules, cables, boton
 
--Circuito
+-Circuito:
 
--Foto circuito
+-Foto circuito:
 
 ## Código
 
--Explicar  ""explicar codigo""
+-Explicar  ""explicar codigo"":
+
+La uncion setup () se ejecuta una vez, cuando el arduino esta cargado por primera vez, aqui es donde configuras las clavijas digitales para que sean de entrada o de salida usando la funcion llamada pinMode (). Las clavijas conectados a LEDs serán de OUTPUT, y la clavija del interruptor ser un INPUT.
+
+loop () se ejecuta continuamente tras completarse setup (), loop () es donde vas a comprovar si hay voltaje en las entradas, y donde conectaras y desconectaras las salidas.
+
 
 -Enlace al código utilizado
 
