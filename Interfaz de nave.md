@@ -14,11 +14,13 @@ Colocas el botón a un lado de la corriente y el otro a la clavija digita 2 del 
 
 # Proceso de montaje
 
--Materiales necesarios: Leds, resistencias azules, cables, boton
+-Materiales necesarios: Leds, resistencias 220-ohm y 10 kiloohms, cables, boton.
 
 -Circuito:
 
 -Foto circuito:
+
+Errores: Montando el arduino no funcionaban las LEDs por que etaban mal puestas las resistencias.
 
 ## Código
 
