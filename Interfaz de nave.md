@@ -1,4 +1,4 @@
-# PROYECTO
+# PROYECTO INTERFAZ NAVE
 
 
 ## Resumen
@@ -27,5 +27,10 @@
 
 # Añadir un botón por hawdre
 
-Vamos a añadir un botón conectado al pin 3, de tal forma que solo cuando se pulse el Led3 se encendera, el resto del proyecto (hawdrer y softfwe) es el mismo.
+Vamos a añadir un botón conectado al pin 3, de tal forma que solo cuando se pulse el Led3 se encendera, el resto del proyecto (hawdrer y softfware) es el mismo.
+
+
+
+
+
 
