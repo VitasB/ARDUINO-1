@@ -167,7 +167,20 @@ delay (1000);
 
 - Foto - Video - Funciona o no -
 
+## Resultado
+
+
 ## Variaciones
+
+-Explicacion
+
+-Montaje
+
+-Código
+
+
+
+
 
 
 
