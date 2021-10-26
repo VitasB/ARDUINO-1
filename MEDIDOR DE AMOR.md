@@ -29,6 +29,15 @@ Serial,print (sensor val);
 
 ( sensor valve: ,); a esto se le llama STRING o cadena de caracteres.
 
+float voltage = (sensorVal/124.0) * 5.0;
+
+temperatura: float temperature = (voltage - 0.5) * 100;
+
+LOOP:
+Leer sensores
+Tratar los datos del sensor
+Pasamos de 0-023 a una temperatura 
+Decidir que leds se encienden
 
 
 ## Introduccion teoria
