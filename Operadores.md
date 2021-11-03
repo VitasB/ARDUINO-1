@@ -77,3 +77,21 @@ Pin -----> led ----> 220 OHMNIOS --- GND
 Da igual si la resistencia va detras o delante del led.
 
 Conectaremos 2 leds . Uno al Pin 4 y otro al Pin 5.
+
+Ejercicio 1
+
+Encender los 2 leds
+
+sold si pulsamos 
+
+los 2 botones(Apagar si no)
+
+Operadores 1
+
+Ejercicio 2
+
+Encender los 2 leds 
+
+Si pulsamos cualquiera de los botones(si no apagar)
+
+Operadores 2
