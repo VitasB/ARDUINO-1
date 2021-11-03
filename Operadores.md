@@ -95,3 +95,5 @@ Encender los 2 leds
 Si pulsamos cualquiera de los botones(si no apagar)
 
 Operadores 2
+![Captura de pantalla de 2021-11-03 13-06-42](https://user-images.githubusercontent.com/90753194/140057242-2ce832a4-f16a-420f-95ec-409d34ff2c36.png)
+
