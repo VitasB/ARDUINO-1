@@ -91,3 +91,6 @@ digitalWrite(4,HIGH),
  Usamos este operador (!) este sirve para hcaer la accion contraria de lo que se desea 
  
  [version 6](https://github.com/DavidMenCam/Arduino/tree/main/arduino_ver_6)
+
+
+los ejercicios actualmente completados resultaron ser muy parecidos en cuestión de programación por tener codigos muy similares (exactamente los mismos) epro con algunos ligeros cambios que hacían que el rsultado de cada ejercicio se totalmente distinto.
