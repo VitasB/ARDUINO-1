@@ -1,99 +1,93 @@
--Leer pinao
-
--Transforma los valores y de ergalo las pinta en pantalla
-
--Decidir
-
--Digital write es una funcion que nos pide un numero de pin y el valor HIGH (1) o LOW (0).
-
-Si el valor es HIGH la placa subministrara 5V en ese pin
-
-Si el valor es LOW la placa subministrara 0V en este pin
-
-Si hay 5V se activaran los circuitos
-
-Si es 0V no se activara
-
-* depende del hawdred y como este conectado.
+## Operaciones
 
 
 
-- EJERCICIO - 
+IF (Variable y valor fijo), Si (True), No (False)
 
-Vamos a conectar 2 botones y 2 leds
+Output -> Stiven actívate
 
-Haremos diferentes programas con diferentes comportaciones.
+EJEMPLO :
 
-Para poner un boton necesitamon una reistencia 10.000 (ohmnos) estas son als que tienen cuerpo beige y una linea naranja.
+Temperatura (15 ºC - 80 ºC)
 
-ejemplo:
-   
- DigitalWrite ( 4 ; LOW ); o digitalWrite (4,0); se desactivaran los numeros de los pines 
-  
- Si es high se activaran 5 V A los numeros de los pines.
-  
-  
-  
-} Else if (temperature >= baselineTemp +2 && temperature < baselineTemp +4){
+Sensor Value (0 - 1024)
 
-DW ( 2,HIGH );
-DW (3,LOW );
-DW (4,LOW );
+Se puede encadenar infinitas veces
 
-} Else if (temperature >= baselineTemp +4 && temperature < baselineTemp +6){
+   Leer Pinao -> Analog Read -> 0 - 1023 (8 bytes)
 
-DW (2,HIGH);
-DW (3,HIGH);
-DW (4,LOW);
+   Transforma los valores y, de regalo, las pinta en pantalla.
+
+   Decidir
 
 
- } Else if (temperature >= baselineTemp +6) {
+
+ Digital Write es una función que nos pide un número de pin y el valor HIGH(1) o LOW(0). Si el valor es HIGH,
+la placa suministrará 5 Voltios en ese pin. Si el valor es LOW, la placa suministrará 0 voltios en ese pin. 
+Si hay 5 voltios, se activarán los circuitos* Si es 0V no se activarán.
+
+
+   Depende del hardware y como esté conectado.
+
+} else if ( temperature >= baselineTemp+2 && temperature < baselineTemp+4){
+
+digitalWrite(2,HIGH),
+
+digitalWrite(3,LOW),
+
+digitalWrite(4,LOW),
+
+} else if ( temperature >= baselineTemp+4 && temperature < baselineTemp+6){
+
+digitalWrite(2,HIGH),
+
+digitalWrite(3,HIGH),
+
+digitalWrite(4,LOW),
+
+} else if ( temperature >= baselineTemp+4)
+
+digitalWrite(2,HIGH),
+
+digitalWrite(3,HIGH),
+
+digitalWrite(4,HIGH),
+
+
+ ### Arduino 
  
-DW (2,HIGH);
-DW (3,HIGH);
-DW (4,HIGH);
-
-## Conectar dos botones 
-
--Ejercicio 
-Vamos a conectar 2 botones y 2 leds 
+ * Vesion 1
  
-Haremos diferentes programas con diferentes comportamientos 
-
-Para poner un boton necesitamos una resistencia de 10.000 Ohmios. Estas son las que tienen cuerpo BEIGE y una linia naranja.
-
-Esquema de boton " Por defecto arriba o "pulled -HIGH "
-
-Conectaremos 2 botones .UNO al Pin 2 , Pin 3 
-
-Para poner un Led necesitamos una resistencia de 220 OHMIOS las de cuerpo azul.
-
-Hay que tener en cuenta la polaridad del led.
-
-La pata mas corta va hacia el GND ( o 0 V ) y la larga hacia el Voltaje.
-
-Pin -----> led ----> 220 OHMNIOS --- GND 
-
-Da igual si la resistencia va detras o delante del led.
-
-Conectaremos 2 leds . Uno al Pin 4 y otro al Pin 5.
-
-Ejercicio 1
-
-Encender los 2 leds
-
-sold si pulsamos 
-
-los 2 botones(Apagar si no)
-
-Operadores 1
-
-Ejercicio 2
-
-Encender los 2 leds 
-
-Si pulsamos cualquiera de los botones(si no apagar)
-
-Operadores 2
-![Captura de pantalla de 2021-11-03 13-06-42](https://user-images.githubusercontent.com/90753194/140057242-2ce832a4-f16a-420f-95ec-409d34ff2c36.png)
-
+ Hemos comenzado copiando unos codigos en la pizzara de la version uno la cual seria esta en particular 
+ 
+ [Version 1 y principal](https://github.com/DavidMenCam/Arduino/tree/main/Arduino%20%20version%201)
+ 
+ * Vesion 2
+ 
+ En la segunda verios hemos echo que 'parpadease siempre  cuando le dabamos a un boton se encendia otro y al contrario.
+ 
+ [Version 2](https://github.com/DavidMenCam/Arduino/blob/main/arduino%20version%202/albedo_god_2.ino)
+ 
+ * Vesion 3
+ 
+ lo que hemos hecho en la version 3 es que siempre esten parpadeando sin parar y cuando le das a un boton se enciende uno y cuando le das ah otro se enciende otro 
+ 
+ [Version 3](https://github.com/DavidMenCam/Arduino/blob/main/Arduino%20version%203/albedo_god_3.ino)
+ 
+ * Vesion 4
+ 
+ En la version 4 Siempre estaban apagados y se encendian con cualquiera de losd os botones 
+ 
+ [version 4](https://github.com/DavidMenCam/Arduino/blob/main/arduino_ver_4/arduino_ver_4.ino)
+ 
+ * Vesion 5
+ 
+ En la version 5 siempre estan parpadeando permanentemente, cuando aprietas el boton que esta conectado al pin dos brilla el led del pin 4 y el otro led se apaga , cuando el boton que esta conectado al pin 3 se aprieta se enciende el led que esta conectado al pin 5  el otro led se apaga y si oprimes los dos botones los dos leds se mantienen encendidos 
+ 
+ [ version 5](https://github.com/DavidMenCam/Arduino/blob/main/arduino_ver_5/arduino_ver_5.ino)
+ 
+ * Vesion 6
+ 
+ Usamos este operador (!) este sirve para hcaer la accion contraria de lo que se desea 
+ 
+ [version 6](https://github.com/DavidMenCam/Arduino/tree/main/arduino_ver_6)
