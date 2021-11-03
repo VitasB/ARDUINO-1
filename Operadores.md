@@ -26,4 +26,3 @@ Haremos diferentes programas con diferentes comportaciones.
 
 Para poner un boton necesitamon una reistencia 10.000 (ohmnos) estas son als que tienen cuerpo beige y una linea naranja.
 
-
