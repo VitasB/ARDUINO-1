@@ -24,3 +24,29 @@ A partir de 24-30HZ no somos capaces visualmente
 
 Los pulsos modulados en ancho crean la ilusión de voltajes interemedios entre o y SV para ello usan pulsos muy cortos.
 
+Que usaremos a través de función
+
+AnalogWrite(Pin,0-255) esta función solo funsiona en pines con PWM.
+
+Los pines con PWM están marcados con el símbolo ~ (la tilde de la eñe)
+
+La función nos pide 2 cosas "Por un lado (y lo primero) El número de PIN
+
+Por otro lado un número entre 0y255
+
+0-0% De Voltaje 
+
+255-100% de voltae(Su)
+
+int= integer
+(número entero)
+
+Significa que nuestra variable es un tipo de dato numérilo no decimal
+
+Le asigma un espacio en memoria otros tipos
+
+sting=cadena de caracteres 
+bool=booleno y es verdadero o falso
+char= 1 unico caracter
+float= número decimales
+
