@@ -56,3 +56,13 @@ float= número decimales
 ### Trabajo
 
 [Este es el código](https://github.com/VitasB/ARDUINO-1/blob/main/lampara_de_varios_colores.ino)
+
+Esta es la parte que dice a los pines que se enciendan:
+
+```C++
+
+ analogWrite(redLEDPin, redValue);
+ analogWrite(greenLEDPin, greenValue);
+ analogWrite(blueLEDPin, blueValue);
+ 
+```
