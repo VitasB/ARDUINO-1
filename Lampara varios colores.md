@@ -46,7 +46,9 @@ Significa que nuestra variable es un tipo de dato numérilo no decimal
 Le asigma un espacio en memoria otros tipos
 
 sting=cadena de caracteres 
-bool=booleno y es verdadero o falso
-char= 1 unico caracter
-float= número decimales
 
+bool=booleno y es verdadero o falso
+
+char= 1 unico caracter
+
+float= número decimales
